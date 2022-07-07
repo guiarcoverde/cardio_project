@@ -42,6 +42,6 @@ Entre 30 e 34.9 - Obeso (Categoria 4)
 Entre 35 e 39.9 - Obesidade Severa (Categoria 5)
 Maior que 40 - Obesidade Morbida (Categoria 6)
 ```
-Os dados acima from retirados da [World Health Organization](https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations).
+Os Dados sobre as classificações foram retirados da [World Health Organization](https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations).
 
 É de fácil observação que conforme o aumento do IMC, aumenta o número de pacientes com doenças cardiovasculares.
