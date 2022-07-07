@@ -45,3 +45,15 @@ Maior que 40 - Obesidade Morbida (Categoria 6)
 Os Dados sobre as classificações foram retirados da [World Health Organization](https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations).
 
 É de fácil observação que conforme o aumento do IMC, aumenta o número de pacientes com doenças cardiovasculares.
+
+# Previsões
+### Usando modelos de classificação
+![image](https://user-images.githubusercontent.com/87540453/177888874-b1a53ed7-997d-4170-b308-7130210de9ae.png)
+
+Accuracy Score: Função que calcula quantas previsões EXATAS foram feitas pelo modelo baseado no dataset de treino e teste.
+
+Precision Score: É a proporção entre tp / (tp + fp) onde TP = pessoas que realmente tem doença cardiovascular e FP = Pessoas que não tem doença cardiovascular porém o modelo computa como se tivessem.
+
+Recall: É a proporção entre tp / (tp + fn) onde TP = pessoas que realmente tem doença cardiovascular e FN = Pessoas que tem doença cardiovascular porém o modelo computa como se não tivessem.
+
+F1 Score: É a média harmônica entre precision score e o recall score, sua formula se dá por F1 = 2 * (precision * recall) / (precision + recall).
