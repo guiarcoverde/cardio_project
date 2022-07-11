@@ -98,18 +98,6 @@ def precision(y_test, y_pred):
     return precision_keras
 
 
-def specificity(y_test, y_pred):
-    tn = K.sum(K.round(K.clip((1 - y_test) * (1 - y_pred), 0, 1)))
-    fp = K.sum(K.round(K.clip((1 - y_test) * y_pred, 0, 1)))
-    return tn / (tn + fp + K.epsilon())
-
-
-def negative_predictive_value(y_test, y_pred):
-    tn = K.sum(K.round(K.clip((1 - y_test) * (1 - y_pred), 0, 1)))
-    fn = K.sum(K.round(K.clip(y_test * (1 - y_pred), 0, 1)))
-    return tn / (tn + fn + K.epsilon())
-
-
 def f1(y_test, y_pred):
     p = precision(y_test, y_pred)
     r = recall(y_test, y_pred)
