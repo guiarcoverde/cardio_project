@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
     df = create_pd(data, data['age'].min(), data['age'].max())
 
-    # prob_vis(df)
+    prob_vis(df)
 
     data['bmi'], data['bmi_cat'] = imc_and_cat(data)
 
@@ -101,5 +101,3 @@ if __name__ == '__main__':
     cardio_mod(data)
 
     sex_graph(data)
-
-    print(df)

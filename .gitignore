@@ -3,3 +3,7 @@ graphs/imc_graph.png
 graphs/relatividade_prob.png
 graphs/sex_graph.png
 scores.xlsx
+cardio_cluster.py
+Mall_Customers.csv
+.~lock.cardio_train.csv#
+.~lock.scores.xlsx#
