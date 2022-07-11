@@ -56,4 +56,10 @@ Precision Score: É a proporção entre tp / (tp + fp) onde TP = pessoas que rea
 
 Recall: É a proporção entre tp / (tp + fn) onde TP = pessoas que realmente tem doença cardiovascular e FN = Pessoas que tem doença cardiovascular porém o modelo computa como se não tivessem.
 
-F1 Score: É a média harmônica entre precision score e o recall score, sua formula se dá por F1 = 2 * (precision * recall) / (precision + recall).
+F1 Score: É a média harmônica entre precision score e o recall score, sua formula se dá por F1 = 2 * (precision * recall) / (precision + recall).]
+
+### Fazendo a previsão com uma Rede neural artificial (ANN)
+
+![image](https://user-images.githubusercontent.com/87540453/178322697-aeb7d17f-afb3-4e55-8513-9280182d8c1b.png)
+
+É possível analisar que a rede neural construída teve resultados similares aos modelos de classificação.
