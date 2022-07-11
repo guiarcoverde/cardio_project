@@ -63,3 +63,5 @@ F1 Score: É a média harmônica entre precision score e o recall score, sua for
 ![image](https://user-images.githubusercontent.com/87540453/178322697-aeb7d17f-afb3-4e55-8513-9280182d8c1b.png)
 
 É possível analisar que a rede neural construída teve resultados similares aos modelos de classificação.
+
+Se você deseja entender melhor como funciona uma rede neural, [Clique aqui](https://towardsdatascience.com/a-beginner-friendly-explanation-of-how-neural-networks-work-55064db60df4)
